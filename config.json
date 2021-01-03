@@ -1,0 +1,22 @@
+{
+    "listeners": {
+
+         "*:8060": {
+            "pass": "applications/poll"
+        }
+
+    },
+
+    "applications": {
+       
+          "poll": {
+            "type": "python 3.8",
+            "user": "athithan-7130",
+            "path": "/home/local/ZOHOCORP/athithan-7130/Desktop/Pollote_Poll_service/",
+            "home": "/home/local/ZOHOCORP/athithan-7130/Desktop/Pollote_Poll_service/newvenv/",
+            "module": "app"
+        }
+
+
+    }
+}
